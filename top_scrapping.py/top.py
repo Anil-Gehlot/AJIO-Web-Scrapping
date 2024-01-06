@@ -25,6 +25,7 @@ for page in range(500):
         "displayRatings": "true",
         "segmentIds": ""
     }
+    
 
     # Send a GET request to the Ajio API for Tops
     response = requests.get(base_url, params=params)
